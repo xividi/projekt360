@@ -41,29 +41,8 @@ namespace theAppMocki.ViewModels
         private DelegateCommand openCamera;
         public ICommand OpenCamera => openCamera ?? (openCamera = new DelegateCommand(PerformOpenCamera));
 
-        public object PhotoPath { get; private set; }
-
-        private async void PerformOpenCamera()
+        private void PerformOpenCamera()
         {
-            var photo = await MediaPicker.CapturePhotoAsync();
-            await LoadPhotoAsync(photo);
-            Console.WriteLine($"CapturePhotoAsync COMPLETED: {PhotoPath}");
-        }
-        async Task LoadPhotoAsync(FileResult photo)
-        {
-            // canceled
-            if (photo == null)
-            {
-                PhotoPath = null;
-                return;
-            }
-            // save the file into local storage
-            var newFile = Path.Combine(FileSystem.CacheDirectory, photo.FileName);
-            using (var stream = await photo.OpenReadAsync())
-            using (var newStream = File.OpenWrite(newFile))
-            await stream.CopyToAsync(newStream);
-
-            PhotoPath = newFile;
         }
     }
 }

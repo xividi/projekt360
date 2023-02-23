@@ -1,0 +1,68 @@
+﻿<Properties StartupConfiguration="{3094C9DC-B763-4C49-AB68-46BAB64FD21B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="theAppMocki/theAppMocki.Android/Properties/AndroidManifest.xml">
+    <Files>
+      <File FileName="theAppMocki/theAppMocki/Views/LoginPage.xaml" Line="35" Column="1" IsPinned="True" />
+      <File FileName="theAppMocki/theAppMocki/Views/MainPage.xaml" Line="16" Column="17" IsPinned="True" />
+      <File FileName="theAppMocki/theAppMocki/App.xaml.cs" Line="31" Column="10" IsPinned="True" />
+      <File FileName="theAppMocki/theAppMocki/Views/WelcomePage.xaml" Line="37" Column="51" IsPinned="True" />
+      <File FileName="theAppMocki/theAppMocki/Views/ServicePage.xaml" Line="36" Column="138" IsPinned="True" />
+      <File FileName="theAppMocki/theAppMocki/ViewModels/ServicePageViewModel.cs" Line="66" Column="1" />
+      <File FileName="theAppMocki/theAppMocki/Views/LoginPage.xaml.cs" />
+      <File FileName="theAppMocki/theAppMocki/App.xaml" />
+      <File FileName="theAppMocki/theAppMocki/AppShell.xaml.cs" />
+      <File FileName="theAppMocki/theAppMocki/Views/WelcomePage.xaml.cs" />
+      <File FileName="theAppMocki/theAppMocki/ViewModels/LoginPageViewModel.cs" />
+      <File FileName="theAppMocki/theAppMocki/ViewModels/WelcomePageViewModel.cs" />
+      <File FileName="theAppMocki/theAppMocki/Views/MainPage.xaml.cs" />
+      <File FileName="theAppMocki/theAppMocki/Views/ServicePage.xaml.cs" />
+      <File FileName="theAppMocki/theAppMocki/ViewModels/MainPageViewModel.cs" />
+      <File FileName="theAppMocki/theAppMocki/AppShell.xaml" />
+      <File FileName="theAppMocki/theAppMocki.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="theAppMocki/theAppMocki/Views/SettingsPage.xaml" Line="11" Column="35" />
+      <File FileName="theAppMocki/theAppMocki/Views/SettingsPage.xaml.cs" />
+      <File FileName="theAppMocki/theAppMocki/ViewModels/SettingsViewModel.cs" Line="1" Column="1" />
+      <File FileName="theAppMocki/theAppMocki.Android/Properties/AssemblyInfo.cs" Line="43" Column="1" />
+      <File FileName="theAppMocki/theAppMocki.iOS/Info.plist" />
+      <File FileName="theAppMocki/theAppMocki.Android/MainActivity.cs" Line="21" Column="9" />
+      <File FileName="theAppMocki/theAppMocki/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="theAppMocki/theAppMocki.Android/Properties/AndroidManifest.xml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="theAppMocki" expanded="True" selected="True">
+            <Node name="theAppMocki" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+            <Node name="theAppMocki.Android" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="theAppMocki.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.theAppMocki.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.902CD241-3CBA-4E68-88F3-F0355557FB78" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.theAppMocki.Android PreferredExecutionTarget="Android.Pixel_6_Pro_API_33" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_6_Pro_API_33" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

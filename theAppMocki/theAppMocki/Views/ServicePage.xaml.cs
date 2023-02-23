@@ -11,6 +11,8 @@ namespace theAppMocki.Views
         {
             InitializeComponent ();
         }
+
+
     }
 }
 

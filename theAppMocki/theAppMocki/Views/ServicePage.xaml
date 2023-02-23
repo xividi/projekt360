@@ -33,25 +33,27 @@
           </LinearGradientBrush>
         </Button.Background>
         </Button>
-        <Label Grid.Column="0" Grid.Row="1" Text="Take 360&#10;Photo" HorizontalTextAlignment="Center" FontSize="Small" ></Label>
+        <Label Grid.Column="0" Grid.Row="1" Text="Take 360&#10;Photo" HorizontalTextAlignment="Center" FontSize="Small" TextColor="Black" ></Label>
         </StackLayout>
 
         <StackLayout Orientation="Vertical">
         <ImageButton Source="camraicon.png" Command="{Binding OpenCamera}" Grid.Column="1" HorizontalOptions="Center" CornerRadius="35" HeightRequest="70" WidthRequest="70"  BackgroundColor="#e3e6ee" ></ImageButton>
-        <Label Grid.Column="1" Grid.Row="1" Text="Take&#10;Photo" HorizontalTextAlignment="Center" FontSize="Small" ></Label>
+        <Label Grid.Column="1" Grid.Row="1" Text="Take&#10;Photo" HorizontalTextAlignment="Center" FontSize="Small" TextColor="Black" ></Label>
         </StackLayout>
 
         <StackLayout Orientation="Vertical">
         <ImageButton Source="removebgicon.png" Grid.Column="2" HorizontalOptions="CenterAndExpand" CornerRadius="35" HeightRequest="70" WidthRequest="70" BackgroundColor="#e3e6ee" ></ImageButton>
-        <Label Grid.Column="2" Grid.Row="1" Text="Remove&#10;Background" HorizontalTextAlignment="Center" FontSize="Small" ></Label>
+        <Label Grid.Column="2" Grid.Row="1" Text="Remove&#10;Background" HorizontalTextAlignment="Center" FontSize="Small" TextColor="Black" ></Label>
         </StackLayout>
 
         <StackLayout Orientation="Vertical">
         <ImageButton Source="cloudicon.png" Scale="1" Grid.Column="3" HorizontalOptions="Center" CornerRadius="35" HeightRequest="70" WidthRequest="70" BackgroundColor="#e3e6ee" ></ImageButton>
-        <Label Grid.Column="3" Grid.Row="1" Text="Cloud&#10;Upload" HorizontalTextAlignment="Center" FontSize="Small" ></Label>
+        <Label Grid.Column="3" Grid.Row="1" Text="Cloud&#10;Upload" HorizontalTextAlignment="Center" FontSize="Small" TextColor="Black" ></Label>
         </StackLayout>
       </FlexLayout>
+      <Image Source="{Binding MediaPath}" WidthRequest="200" HeightRequest="400" Aspect="AspectFit" />
       <Grid RowDefinitions="auto" ColumnDefinitions="400" HorizontalOptions="Center">
+  
       <cc:CircularSlider HeightRequest="270" WidthRequest="270" HorizontalOptions="Center" Arc="360" KnobColor="#4baffe" Maximum="100" Minimum="0" PaddingAround="10" Start="0" TrackProgressColor="#4baffe" VerticalOptions="FillAndExpand" Value="0">
 
       </cc:CircularSlider>

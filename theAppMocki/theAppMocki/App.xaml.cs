@@ -18,6 +18,8 @@ namespace theAppMocki
         {
             InitializeComponent();
 
+            
+
             var result = await NavigationService.NavigateAsync("WelcomePage");
         }
 
