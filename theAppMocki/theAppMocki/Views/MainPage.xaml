@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="http://prismlibrary.com" xmlns:theappmocki="clr-namespace:theAppMocki"
+    xmlns:viewmodels="clr-namespace:theAppMocki.ViewModels" xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    x:DataType="viewmodels:MainPageViewModel"
+    BackgroundColor="White"
+    x:Class="theAppMocki.Views.MainPage">
+  
+<ContentPage.Padding>
+    <OnPlatform iOS="0, 50, 0, 0"></OnPlatform>
+  </ContentPage.Padding>
+
+    <ContentPage.Content>
+    <StackLayout>
+    <StackLayout Margin="30, 0">
+      <ImageButton Source="menuButton.png" Scale="0.6" HorizontalOptions="End"></ImageButton>
+      <Label Text="Hello!" TextColor="Black" FontAttributes="Bold" FontSize="Title" Margin="2, 20, 0, 0" ></Label>
+      <Label Text="TurnPlatform Service App" FontSize="Large" FontAttributes="Bold" TextColor="Gray" Margin="0, 0, 0, 100" ></Label>
+    </StackLayout>
+
+      <ScrollView Margin="20, 0, 0, 0" HorizontalScrollBarVisibility="Never" Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal">
+                <Frame CornerRadius="20" WidthRequest="220" HeightRequest="330" HasShadow="False" BackgroundColor="LightGray">
+                      <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding PhotoService}"/>
+                      </Frame.GestureRecognizers>
+
+            <Grid RowDefinitions="auto">
+              <Label Grid.Row="4">
+                <Label.FormattedText>
+                  <FormattedString>
+                    <Span Text="Photo Service" TextColor="Black" FontSize="Title" FontAttributes="Bold"/>
+                    <Span Text="&#10;Create Photo Session" TextColor="Gray" FontAttributes="Bold"/>
+                  </FormattedString>
+                </Label.FormattedText>
+              </Label>
+          </Grid>
+          </Frame>
+
+          <Frame CornerRadius="20" WidthRequest="200" HeightRequest="300" HasShadow="False" BackgroundColor="SkyBlue"> 
+            <Frame.GestureRecognizers>
+                 <TapGestureRecognizer Command="{Binding NavigationSettings}"/>
+            </Frame.GestureRecognizers>
+            <Grid RowDefinitions="auto">
+              <Label Grid.Row="4">
+                <Label.FormattedText>
+                  <FormattedString>
+                    <Span Text="Settings" TextColor="Black" FontSize="Title" FontAttributes="Bold"/>
+                    <Span Text="&#10;Your Devices Settings" TextColor="Gray" FontAttributes="Bold"/>
+                  </FormattedString>
+                </Label.FormattedText>
+              </Label>
+          </Grid>
+          </Frame>
+          </StackLayout>
+      </ScrollView>
+
+      <yummy:PancakeView BackgroundColor="black" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="120" CornerRadius="40, 0, 0, 0">
+        <yummy:PancakeView.GestureRecognizers>
+          <TapGestureRecognizer Command="{Binding RemoteAccessBar}"/>
+
+        </yummy:PancakeView.GestureRecognizers>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+          <Image Source="remoteaccess.png" Scale="0.7"></Image>
+          <Label  HorizontalOptions="Center" VerticalOptions="Center">
+            <Label.FormattedText>
+              <FormattedString>
+                <Span Text="Quick Remote Access" TextColor="White" FontSize="Large" />
+                <Span Text="&#10;Click here to connect with your device." TextColor="White" FontSize="Medium" />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+        </StackLayout>
+      </yummy:PancakeView>
+    <!--<Frame HasShadow="False" CornerRadius="0" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="100" BackgroundColor="Black">
+        <StackLayout Orientation="Horizontal">
+          <Image Source="menuButton" HorizontalOptions="Start"></Image>
+          <Label HorizontalOptions="Center" VerticalOptions="Start">
+            <Label.FormattedText>
+              <FormattedString>
+                <Span Text="Quick Remote Access" TextColor="White" />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+        </StackLayout>
+      </Frame>-->
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

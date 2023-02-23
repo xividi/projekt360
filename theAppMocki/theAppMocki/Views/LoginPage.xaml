@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="http://prismlibrary.com" xmlns:viewmodels="clr-namespace:theAppMocki.ViewModels"
+    x:DataType="viewmodels:LoginPageViewModel"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    BackgroundColor="White"
+    x:Class="theAppMocki.Views.LoginPage">
+
+<ContentPage.Padding>
+    <OnPlatform iOS="0, 50, 0, 0"></OnPlatform>
+  </ContentPage.Padding>
+
+
+    
+    <FlexLayout Direction="Column" AlignContent="Start" JustifyContent="SpaceEvenly" Margin="30, 0">
+        <Image Source="turnplate.png" Scale="0.6"></Image>
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Label HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                      <Span Text="TurnPlatform&#10;" TextColor="Black" FontAttributes="Bold" FontSize="Title" />
+                      <Span Text="A Platform for beautiful " FontSize="Medium" TextColor="DimGray" />
+                      <Span Text="E-COMMERCE photos" FontAttributes="Bold" FontSize="Medium" TextColor="DimGray" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+    </StackLayout>
+
+    <StackLayout Padding="10">
+    <Label Text="Your EMAIL address" FontAttributes="Bold" TextColor="Black" FontSize="Medium"></Label>
+    <Frame CornerRadius="10" Padding="0" HasShadow="False" BorderColor="DimGray" HeightRequest="60">
+      <Entry Placeholder="myemail@mail.com" FontAttributes="Bold" TextColor="Black"></Entry></Frame>
+
+    <Label Margin="0, 20, 0, 0" Text="Choose a Password" TextColor="Black" FontAttributes="Bold" FontSize="Medium"></Label>
+          <Frame CornerRadius="10" Padding="0" HasShadow="False" BorderColor="DimGray" HeightRequest="60">
+      <Entry IsPassword="True" Placeholder="min. 8 characters" FontAttributes="Bold" TextColor="Black" ></Entry></Frame>
+
+      <Button Command="{Binding NavigateCommand}" Margin="0, 30, 0, 0" HeightRequest="60" CornerRadius="10" Text="Continue" CharacterSpacing="3" TextColor="White" FontAttributes="Bold" FontSize="Medium">
+        <Button.Background>
+          <LinearGradientBrush EndPoint="1,0">
+            <GradientStop Color="DeepSkyBlue" Offset="0.1"></GradientStop>
+            <GradientStop Color="Cyan" Offset="1.0"></GradientStop>
+          </LinearGradientBrush>
+        </Button.Background>
+      </Button>
+    </StackLayout>
+
+    <Grid VerticalOptions="Center" RowDefinitions="13" ColumnDefinitions="*, auto, *" Margin="0, -20, 0, -20">
+    <BoxView Grid.Column="0" HeightRequest="1" Color="Black" HorizontalOptions="FillAndExpand"  VerticalOptions="Center" Opacity="0.5" Margin="14, 0, 0, 0"></BoxView>
+      <Label Grid.Column="1" Text="or" TextColor="Gray" FontAttributes="Bold" FontSize="Medium" ></Label>
+    <BoxView Grid.Column="2" HeightRequest="1" Color="Black" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Opacity="0.5" Margin="0, 0, 14, 0"></BoxView>
+      </Grid>
+
+    <Frame BorderColor="Gray" HeightRequest="20" Margin="0, 0, 0, -20" CornerRadius="10" HasShadow="False">
+      <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+        <Image Source="googleicon.png"></Image>
+        <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Sing up with Google" TextColor="Black" FontAttributes="Bold" FontSize="Medium"></Label>
+      </StackLayout>
+      </Frame>
+    <Frame BorderColor="Gray" HeightRequest="20" CornerRadius="10" HasShadow="False">
+      <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="15">
+        <Image Source="appleicon.png" Scale="1.3"></Image>
+        <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Sing up with Apple" TextColor="Black" FontAttributes="Bold" FontSize="Medium"></Label>
+      </StackLayout>
+      </Frame>
+    </FlexLayout>
+
+
+</ContentPage>
+

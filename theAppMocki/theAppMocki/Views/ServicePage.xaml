@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:viewmodels="clr-namespace:theAppMocki.ViewModels"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:cc="clr-namespace:CC;assembly=CC.CircularSlider.Forms"
+    x:DataType="viewmodels:ServicePageViewModel"
+    x:Class="theAppMocki.Views.ServicePage"
+    BackgroundColor="white">
+
+  <ContentPage.Padding>
+    <OnPlatform iOS="0, 50, 0, 0"></OnPlatform>
+  </ContentPage.Padding>
+
+
+
+    <ContentPage.Content>
+      <StackLayout Spacing="30">
+      <StackLayout Orientation="Horizontal" Margin="30, 0">
+        <ImageButton HorizontalOptions="StartAndExpand" Scale="0.7" Source="backbutton.png" Command="{prism:GoBack}" ></ImageButton>
+        <ImageButton HorizontalOptions="EndAndExpand" Scale="0.6" Source="menuButton.png" Command="{Binding MenuButton}"></ImageButton>
+      </StackLayout>
+
+      <FlexLayout Direction="Row" JustifyContent="SpaceEvenly" Margin="30, 0">
+        <StackLayout Orientation="Vertical">
+        <Button HorizontalOptions="Center" CornerRadius="35" HeightRequest="70" WidthRequest="70" Text="360" TextColor="White" FontAttributes="Bold" BackgroundColor="#e3e6ee" >
+          <Button.Background>
+          <LinearGradientBrush EndPoint="1,0">
+            <GradientStop Color="DeepSkyBlue" Offset="0.0"></GradientStop>
+            <GradientStop Color="Cyan" Offset="1.0"></GradientStop>
+          </LinearGradientBrush>
+        </Button.Background>
+        </Button>
+        <Label Grid.Column="0" Grid.Row="1" Text="Take 360&#10;Photo" HorizontalTextAlignment="Center" FontSize="Small" ></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Vertical">
+        <ImageButton Source="camraicon.png" Command="{Binding OpenCamera}" Grid.Column="1" HorizontalOptions="Center" CornerRadius="35" HeightRequest="70" WidthRequest="70"  BackgroundColor="#e3e6ee" ></ImageButton>
+        <Label Grid.Column="1" Grid.Row="1" Text="Take&#10;Photo" HorizontalTextAlignment="Center" FontSize="Small" ></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Vertical">
+        <ImageButton Source="removebgicon.png" Grid.Column="2" HorizontalOptions="CenterAndExpand" CornerRadius="35" HeightRequest="70" WidthRequest="70" BackgroundColor="#e3e6ee" ></ImageButton>
+        <Label Grid.Column="2" Grid.Row="1" Text="Remove&#10;Background" HorizontalTextAlignment="Center" FontSize="Small" ></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Vertical">
+        <ImageButton Source="cloudicon.png" Scale="1" Grid.Column="3" HorizontalOptions="Center" CornerRadius="35" HeightRequest="70" WidthRequest="70" BackgroundColor="#e3e6ee" ></ImageButton>
+        <Label Grid.Column="3" Grid.Row="1" Text="Cloud&#10;Upload" HorizontalTextAlignment="Center" FontSize="Small" ></Label>
+        </StackLayout>
+      </FlexLayout>
+      <Grid RowDefinitions="auto" ColumnDefinitions="400" HorizontalOptions="Center">
+      <cc:CircularSlider HeightRequest="270" WidthRequest="270" HorizontalOptions="Center" Arc="360" KnobColor="#4baffe" Maximum="100" Minimum="0" PaddingAround="10" Start="0" TrackProgressColor="#4baffe" VerticalOptions="FillAndExpand" Value="0">
+
+      </cc:CircularSlider>
+      <yummy:PancakeView HorizontalOptions="Center" VerticalOptions="Center" CornerRadius="110" HeightRequest="220" WidthRequest="220" BackgroundColor="White">
+        <yummy:PancakeView.Shadow>
+            <yummy:DropShadow BlurRadius="40" Color="#4baffe"/>
+          </yummy:PancakeView.Shadow>
+      </yummy:PancakeView>
+    
+        
+      <Button Margin="30, 0" Grid.Row="4" HeightRequest="60" CornerRadius="10" Text="Take Photo" CharacterSpacing="3" TextColor="White" FontAttributes="Bold" FontSize="Medium">
+        <Button.Background>
+          <LinearGradientBrush EndPoint="1,0">
+            <GradientStop Color="DeepSkyBlue" Offset="0.1"></GradientStop>
+            <GradientStop Color="Cyan" Offset="1.0"></GradientStop>
+          </LinearGradientBrush>
+        </Button.Background>
+      </Button>
+      </Grid>
+      </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

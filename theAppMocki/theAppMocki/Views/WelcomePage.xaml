@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodels="clr-namespace:theAppMocki.ViewModels"
+    x:DataType="viewmodels:WelcomePageViewModel"
+    xmlns:prism="http://prismlibrary.com" xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    BackgroundColor="white"
+    x:Class="theAppMocki.Views.WelcomePage">
+
+
+    <StackLayout>
+    <Grid RowDefinitions="auto" >
+    <yummy:PancakeView  Grid.Row="0" Grid.RowSpan="5" BackgroundColor="Black" CornerRadius="0, 0, 90, 90" HeightRequest="400"></yummy:PancakeView>
+    <!--<Frame BackgroundColor="Black" CornerRadius="110" HeightRequest="400" Margin="0, -90, 0, 0" ></Frame>-->
+    <yummy:PancakeView  Grid.Row="5" HorizontalOptions="Center" VerticalOptions="Center" CornerRadius="80" BackgroundColor="White" WidthRequest="160" HeightRequest="160" Margin="0, -90, 0, 0">
+      <yummy:PancakeView.Shadow>
+        <yummy:DropShadow Color="Cyan" Offset="0, 40" Opacity="0.15"/>
+      </yummy:PancakeView.Shadow>
+      <Image Source="devpark.png" Scale="0.7"></Image>
+    </yummy:PancakeView>
+
+      <Label Grid.Row="7" HorizontalOptions="Center" HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                      <Span Text="TurnPlatform&#10;" FontSize="Title" TextColor="Black" FontAttributes="Bold"/>
+                      <Span  Text="A Platform for beautiful " FontSize="Medium" TextColor="DimGray" />
+                      <Span Text="E-COMMERCE photos" FontAttributes="Bold" FontSize="Medium" TextColor="DimGray" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+    <Button Grid.Row="9" Text="Get Started For Free"
+            CharacterSpacing="3"
+            Command="{Binding NavigateCommand}"
+            CornerRadius="10"
+            TextTransform="None" TextColor="White" FontAttributes="Bold" FontSize="Medium"
+            HeightRequest="60" WidthRequest="300"
+            HorizontalOptions="Center">
+      <Button.Background>
+        <LinearGradientBrush EndPoint="1,0">
+           <GradientStop Color="DeepSkyBlue" Offset="0.1"></GradientStop>
+           <GradientStop Color="Cyan" Offset="1.0"></GradientStop>
+
+        </LinearGradientBrush>
+
+      </Button.Background>
+
+    </Button>
+    </Grid>
+
+  </StackLayout>
+
+</ContentPage>
+
+
+

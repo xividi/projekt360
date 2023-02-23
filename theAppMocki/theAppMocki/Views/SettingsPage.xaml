@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:viewmodels="clr-namespace:theAppMocki.ViewModels"
+    x:DataType="viewmodels:SettingsPageViewModel"
+    x:Class="theAppMocki.Views.SettingsPage"
+    BackgroundColor="white">
+    <ContentPage.Content>
+        <StackLayout Padding="0, 50, 0, 0">
+        <Button Command="{Binding WelcomePage}" Text="WelcomePage"></Button>
+        <Button Command="{Binding LoginPage}" Text="LoginPage"></Button>
+        <Button Command="{Binding MainPage}" Text="MainPage"></Button>
+        <Button Command="{Binding ServicePage}" Text="ServicePage"></Button>
+
+
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
