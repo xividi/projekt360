@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5f2BKyUt0Zfb7CkKATBLrFlxLUvMvQkgZTB85LwYzUkaIykGYDRpkENM/E/6LMyo4Pjn49ALfIAUn3isaVcQgw==",
+  "dgSpecHash": "TrA97q8BR274tTrRUEReXuC9K6bThjeX6qLZrJwM0ZNxOIKDhBMnulB4xPQO+8C4+/WdIHO9VOG756TBpqEpew==",
   "success": true,
   "projectFilePath": "/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.Android/theAppMocki.Android.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/xividi/.nuget/packages/prism.core/8.1.97/prism.core.8.1.97.nupkg.sha512",
     "/Users/xividi/.nuget/packages/prism.forms/8.1.97/prism.forms.8.1.97.nupkg.sha512",
     "/Users/xividi/.nuget/packages/prism.unity.forms/8.1.97/prism.unity.forms.8.1.97.nupkg.sha512",
+    "/Users/xividi/.nuget/packages/sharpnado.shadows/1.2.1/sharpnado.shadows.1.2.1.nupkg.sha512",
     "/Users/xividi/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
     "/Users/xividi/.nuget/packages/skiasharp.views/2.80.2/skiasharp.views.2.80.2.nupkg.sha512",
     "/Users/xividi/.nuget/packages/skiasharp.views.forms/2.80.2/skiasharp.views.forms.2.80.2.nupkg.sha512",
@@ -17,6 +18,7 @@
     "/Users/xividi/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/xividi/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "/Users/xividi/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "/Users/xividi/.nuget/packages/thomaslevesque.weakevent/4.1.0/thomaslevesque.weakevent.4.1.0.nupkg.sha512",
     "/Users/xividi/.nuget/packages/unity.abstractions/5.11.7/unity.abstractions.5.11.7.nupkg.sha512",
     "/Users/xividi/.nuget/packages/unity.container/5.11.11/unity.container.5.11.11.nupkg.sha512",
     "/Users/xividi/.nuget/packages/xamarin.androidx.activity/1.2.4.1/xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

@@ -51,8 +51,7 @@
         <Label Grid.Column="3" Grid.Row="1" Text="Cloud&#10;Upload" HorizontalTextAlignment="Center" FontSize="Small" TextColor="Black" ></Label>
         </StackLayout>
       </FlexLayout>
-      <Image Source="{Binding MediaPath}" WidthRequest="200" HeightRequest="400" Aspect="AspectFit" />
-      <Grid RowDefinitions="auto" ColumnDefinitions="400" HorizontalOptions="Center">
+      <Grid Padding="10" RowDefinitions="auto" ColumnDefinitions="400" HorizontalOptions="Center">
   
       <cc:CircularSlider HeightRequest="270" WidthRequest="270" HorizontalOptions="Center" Arc="360" KnobColor="#4baffe" Maximum="100" Minimum="0" PaddingAround="10" Start="0" TrackProgressColor="#4baffe" VerticalOptions="FillAndExpand" Value="0">
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZEbysHEeCAUdhICYxJpwkOCyy6Ya+Ha7bAZXSC4YpNhttmEQ0FC8zjfrmiI4z3+wZFa+eFI/XowgZdPo9DiKpQ==",
+  "dgSpecHash": "Jmv4u6KGMMJBoRZ54kB2W7W3zfXkeHEyfZVKPZmQcRBx0X/IJcd0+TK6wyjKKO2HIKTDO2WMjTsFGYaLiiOwng==",
   "success": true,
   "projectFilePath": "/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki/theAppMocki.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "/Users/xividi/.nuget/packages/prism.core/8.1.97/prism.core.8.1.97.nupkg.sha512",
     "/Users/xividi/.nuget/packages/prism.forms/8.1.97/prism.forms.8.1.97.nupkg.sha512",
     "/Users/xividi/.nuget/packages/prism.unity.forms/8.1.97/prism.unity.forms.8.1.97.nupkg.sha512",
+    "/Users/xividi/.nuget/packages/sharpnado.shadows/1.2.1/sharpnado.shadows.1.2.1.nupkg.sha512",
     "/Users/xividi/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
     "/Users/xividi/.nuget/packages/skiasharp.views.forms/2.80.2/skiasharp.views.forms.2.80.2.nupkg.sha512",
     "/Users/xividi/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
@@ -22,6 +23,7 @@
     "/Users/xividi/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
     "/Users/xividi/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "/Users/xividi/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "/Users/xividi/.nuget/packages/thomaslevesque.weakevent/4.1.0/thomaslevesque.weakevent.4.1.0.nupkg.sha512",
     "/Users/xividi/.nuget/packages/unity.abstractions/5.11.7/unity.abstractions.5.11.7.nupkg.sha512",
     "/Users/xividi/.nuget/packages/unity.container/5.11.11/unity.container.5.11.11.nupkg.sha512",
     "/Users/xividi/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",

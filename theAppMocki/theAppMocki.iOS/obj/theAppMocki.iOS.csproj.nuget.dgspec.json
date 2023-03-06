@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[8.1.97, )"
             },
+            "Sharpnado.Shadows": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -119,6 +123,10 @@
               "target": "Package",
               "version": "[8.1.97, )"
             },
+            "Sharpnado.Shadows": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -142,7 +150,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/Users/xividi/Library/Caches/VisualStudio/17.0/MSBuild/69113_3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/xividi/Library/Caches/VisualStudio/17.0/MSBuild/4273_3/RuntimeIdentifierGraph.json"
         }
       }
     }

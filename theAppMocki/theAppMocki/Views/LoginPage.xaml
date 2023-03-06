@@ -14,10 +14,10 @@
 
 
     
-    <FlexLayout Direction="Column" AlignContent="Start" JustifyContent="SpaceEvenly" Margin="30, 0">
-        <Image Source="turnplate.png" Scale="0.6"></Image>
-    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-            <Label HorizontalTextAlignment="Center">
+    <FlexLayout Direction="Column" AlignContent="Start" JustifyContent="Start" Margin="30, 0">
+    <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+              <Image Source="turnplate.png" Scale="0.7"></Image>
+            <Label HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center">
                 <Label.FormattedText>
                     <FormattedString>
                       <Span Text="TurnPlatform&#10;" TextColor="Black" FontAttributes="Bold" FontSize="Title" />
@@ -26,10 +26,8 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-    </StackLayout>
 
-    <StackLayout Padding="10">
-    <Label Text="Your EMAIL address" FontAttributes="Bold" TextColor="Black" FontSize="Medium"></Label>
+    <Label Text="Your EMAIL address" FontAttributes="Bold" TextColor="Black" FontSize="Medium" Margin="0, 30, 0, 0" ></Label>
     <Frame CornerRadius="10" Padding="0" HasShadow="False" BorderColor="DimGray" HeightRequest="60">
       <Entry Placeholder="myemail@mail.com" FontAttributes="Bold" TextColor="Black"></Entry></Frame>
 
@@ -47,12 +45,13 @@
       </Button>
     </StackLayout>
 
-    <Grid VerticalOptions="Center" RowDefinitions="13" ColumnDefinitions="*, auto, *" Margin="0, -20, 0, -20">
+    <Grid VerticalOptions="Center" RowDefinitions="13" ColumnDefinitions="*, auto, *" Margin="0, 40" >
     <BoxView Grid.Column="0" HeightRequest="1" Color="Black" HorizontalOptions="FillAndExpand"  VerticalOptions="Center" Opacity="0.5" Margin="14, 0, 0, 0"></BoxView>
       <Label Grid.Column="1" Text="or" TextColor="Gray" FontAttributes="Bold" FontSize="Medium" ></Label>
     <BoxView Grid.Column="2" HeightRequest="1" Color="Black" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Opacity="0.5" Margin="0, 0, 14, 0"></BoxView>
       </Grid>
 
+    <StackLayout Orientation="Vertical" Spacing="50">
     <Frame BorderColor="Gray" HeightRequest="20" Margin="0, 0, 0, -20" CornerRadius="10" HasShadow="False">
       <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
         <Image Source="googleicon.png"></Image>
@@ -65,6 +64,8 @@
         <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Sing up with Apple" TextColor="Black" FontAttributes="Bold" FontSize="Medium"></Label>
       </StackLayout>
       </Frame>
+      </StackLayout>
+
     </FlexLayout>
 
 

@@ -12,6 +12,7 @@
           "CC.CircularSlider.Forms": "1.0.13",
           "NETStandard.Library": "2.0.3",
           "Prism.Unity.Forms": "8.1.97",
+          "Sharpnado.Shadows": "1.2.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "Xamarin.Forms.PancakeView": "2.3.0.759"
@@ -89,6 +90,18 @@
           "lib/netstandard2.0/Prism.Unity.Forms.dll": {
             "assemblyVersion": "8.1.97.5141",
             "fileVersion": "8.1.97.5141"
+          }
+        }
+      },
+      "Sharpnado.Shadows/1.2.1": {
+        "dependencies": {
+          "ThomasLevesque.WeakEvent": "4.1.0",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sharpnado.Shadows.dll": {
+            "assemblyVersion": "1.2.1.0",
+            "fileVersion": "1.2.1.0"
           }
         }
       },
@@ -171,6 +184,14 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
             "assemblyVersion": "4.2.0.0",
             "fileVersion": "4.6.27129.4"
+          }
+        }
+      },
+      "ThomasLevesque.WeakEvent/4.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.1.0.0"
           }
         }
       },
@@ -307,6 +328,13 @@
       "path": "prism.unity.forms/8.1.97",
       "hashPath": "prism.unity.forms.8.1.97.nupkg.sha512"
     },
+    "Sharpnado.Shadows/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ERDGqFJIZpXRNnB/zTg4+cL/Uw73UTtmGEl0Og6pNTWN+NLh254rsVPY+sQ4Hi6qhvmsFgsTEOh7v3iRWT8egw==",
+      "path": "sharpnado.shadows/1.2.1",
+      "hashPath": "sharpnado.shadows.1.2.1.nupkg.sha512"
+    },
     "SkiaSharp/2.80.2": {
       "type": "package",
       "serviceable": true,
@@ -369,6 +397,13 @@
       "sha512": "sha512-BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
       "path": "system.threading.tasks.extensions/4.5.2",
       "hashPath": "system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    },
+    "ThomasLevesque.WeakEvent/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mcp8UoYXWvPmud7UJmREULQLxLmX6SYet2pyZUHpcmIiku3JoqEilPUu9QeUZrV7fOCp0Pfva/VDhG+n3afGyg==",
+      "path": "thomaslevesque.weakevent/4.1.0",
+      "hashPath": "thomaslevesque.weakevent.4.1.0.nupkg.sha512"
     },
     "Unity.Abstractions/5.11.7": {
       "type": "package",

@@ -17,8 +17,7 @@ namespace theAppMocki
         protected override async void OnInitialized()
         {
             InitializeComponent();
-
-            
+            Sharpnado.Shades.Initializer.Initialize(loggerEnable: false);
 
             var result = await NavigationService.NavigateAsync("WelcomePage");
         }

@@ -175,10 +175,13 @@
 --reference=/Users/xividi/.nuget/packages/prism.core/8.1.97/lib/netstandard2.0/Prism.dll
 --reference=/Users/xividi/.nuget/packages/prism.forms/8.1.97/lib/netstandard2.0/Prism.Forms.dll
 --reference=/Users/xividi/.nuget/packages/prism.unity.forms/8.1.97/lib/netstandard2.0/Prism.Unity.Forms.dll
+--reference=/Users/xividi/.nuget/packages/sharpnado.shadows/1.2.1/lib/Xamarin.iOS10/Sharpnado.Shadows.dll
+--reference=/Users/xividi/.nuget/packages/sharpnado.shadows/1.2.1/lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.dll
 --reference=/Users/xividi/.nuget/packages/skiasharp/2.80.2/lib/xamarinios1.0/SkiaSharp.dll
 --reference=/Users/xividi/.nuget/packages/skiasharp.views/2.80.2/lib/xamarinios1.0/SkiaSharp.Views.iOS.dll
 --reference=/Users/xividi/.nuget/packages/skiasharp.views.forms/2.80.2/lib/xamarinios1.0/SkiaSharp.Views.Forms.dll
 --reference=/Users/xividi/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll
+--reference=/Users/xividi/.nuget/packages/thomaslevesque.weakevent/4.1.0/lib/netstandard2.0/WeakEvent.dll
 --reference=/Users/xividi/.nuget/packages/unity.abstractions/5.11.7/lib/netstandard2.0/Unity.Abstractions.dll
 --reference=/Users/xividi/.nuget/packages/unity.container/5.11.11/lib/netstandard2.0/Unity.Container.dll
 --reference=/Users/xividi/.nuget/packages/xamarin.essentials/1.7.0/lib/xamarinios10/Xamarin.Essentials.dll

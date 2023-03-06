@@ -17,3 +17,4 @@
 /Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
 /Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki/obj/Debug/netstandard2.0/Views/ServicePage.xaml.g.cs
 /Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki/obj/Debug/netstandard2.0/Views/SettingsPage.xaml.g.cs
+/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki/obj/Debug/netstandard2.0/Views/CameraPage.xaml.g.cs

@@ -103,3 +103,9 @@
 /Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/optimized/cloudicon.png
 /Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/optimized/appleicon.png
 /Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/optimized/googleicon.png
+/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Shadows.dll
+/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Shadows.pdb
+/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Shadows.iOS.dll
+/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/bin/iPhoneSimulator/Debug/Sharpnado.Shadows.iOS.pdb
+/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/bin/iPhoneSimulator/Debug/WeakEvent.dll
+/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/bin/iPhoneSimulator/Debug/WeakEvent.pdb

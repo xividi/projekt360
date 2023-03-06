@@ -24,8 +24,11 @@ namespace theAppMocki.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+            Sharpnado.Shades.iOS.iOSShadowsRenderer.Initialize();
 
+            UIApplication.SharedApplication.StatusBarStyle = UIStatusBarStyle.LightContent;
             return base.FinishedLaunching(app, options);
+
         }
     }
 }

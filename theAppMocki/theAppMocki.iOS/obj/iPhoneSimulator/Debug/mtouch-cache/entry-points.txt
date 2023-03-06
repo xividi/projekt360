@@ -66,6 +66,65 @@ Function=xamarin_log
 	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_get_locale_country_code
 	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetDomainSocketSizes
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Core.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContextEx
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_AcceptSecContext
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_GetUser
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Wrap
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Unwrap
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=BrotliDecoderCreateInstance
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompressStream
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompress
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDestroyInstance
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderIsFinished
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCreateInstance
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderSetParameter
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompressStream
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderHasMoreOutput
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderDestroyInstance
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompress
+	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
 Function=xamarin_CGPoint__VNNormalizedFaceBoundingBoxPointForLandmarkPoint_Vector2_CGRect_nuint_nuint_string
 	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_CGPoint__VNImagePointForFaceLandmarkPoint_Vector2_CGRect_nuint_nuint_string
@@ -106,9 +165,6 @@ Function=xamarin_release_block_on_main_thread
 	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_get_original_working_directory_path
 	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=xamarin_start_wwan
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
 Function=xamarin_get_block_descriptor
 	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__NMatrix4_objc_msgSend
@@ -951,62 +1007,6 @@ Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix4
 	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix4
 	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=NetSecurityNative_ReleaseGssBuffer
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DisplayMinorStatus
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DisplayMajorStatus
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ImportUserName
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ImportPrincipalName
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ReleaseName
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitiateCredSpNego
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitiateCredWithPassword
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ReleaseCred
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitSecContext
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitSecContextEx
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_AcceptSecContext
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DeleteSecContext
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_GetUser
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_Wrap
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_Unwrap
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
-Function=SystemNative_GetDomainSocketSizes
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Core.dll
-Function=BrotliDecoderCreateInstance
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDecompressStream
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDecompress
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDestroyInstance
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderIsFinished
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCreateInstance
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderSetParameter
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCompressStream
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderHasMoreOutput
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderDestroyInstance
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCompress
-	/Users/xividi/Projects/theAppMocki/theAppMocki/theAppMocki.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.IO.Compression.dll
 Function=mono_pmip
 Function=xamarin_dyn_objc_msgSend
 Function=xamarin_dyn_objc_msgSendSuper
